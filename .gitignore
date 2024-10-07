@@ -1,0 +1,4 @@
+.idea
+.venv
+modules/MeloTTS
+modules/OpenVoice
