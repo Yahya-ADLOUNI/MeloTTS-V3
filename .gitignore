@@ -1,4 +1,5 @@
 .idea
 .venv
-modules/MeloTTS
-modules/OpenVoice
+modules
+processed
+outputs_v2
