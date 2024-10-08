@@ -11,10 +11,10 @@ pip install -r requirements.txt
 cd modules
 rm -rf OpenVoice MeloTTS
 echo "${C_SPRINGGREEN3}> Cloning [OpenVoice] project${NO_FORMAT}"
-git clone git@github.com:myshell-ai/OpenVoice.git
+git clone https://github.com/myshell-ai/OpenVoice.git
 rm -rf OpenVoice/.git
 echo "${C_SPRINGGREEN3}> Cloning [MeloTTS] project${NO_FORMAT}"
-git clone git@github.com:myshell-ai/MeloTTS.git
+git clone https://github.com/myshell-ai/MeloTTS.git
 rm -rf MeloTTS/.git
 
 echo "${C_SPRINGGREEN3}> Starting setup for [OpenVoice]${NO_FORMAT}"
