@@ -47,6 +47,8 @@ curl -LO https://huggingface.co/myshell-ai/MeloTTS-English-v2/resolve/main/check
 echo "${C_SPRINGGREEN3}> Downloading base config for [MeloTTS]${NO_FORMAT}"
 curl -LO https://huggingface.co/myshell-ai/MeloTTS-English-v2/resolve/main/config.json?download=true
 echo "${C_SPRINGGREEN3}> Moving [MeloTTS] base checkpoints to ./modules/MeloTTS${NO_FORMAT}"
+mv 'checkpoint.pth?download=true' checkpoint.pth
+mv 'config.json?download=true' config.json
 cd ..
 mv checkpoints modules/MeloTTS
 
