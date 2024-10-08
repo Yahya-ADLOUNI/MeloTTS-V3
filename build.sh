@@ -51,4 +51,4 @@ cd ..
 mv checkpoints modules/MeloTTS
 
 echo "${C_SPRINGGREEN3}> Moving voices to ./modules/OpenVoice/resources${NO_FORMAT}"
-cp -a /voices/. modules/OpenVoice/resources/
+cp -a voices/. modules/OpenVoice/resources/
